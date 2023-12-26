@@ -14,9 +14,13 @@ The game's main loop has been reorganized for better modularity. The `Animation`
 
 Pressing the 'p' key during gameplay triggers a pause screen with the message "paused -- press space to continue." This allows players to take a break and resume the game at their convenience.
 
+![img](https://github.com/ravidmend/arkanoid/blob/master/.idea/pictures/pause%20screen.png)
+
 ### Bonus Feature: 3... 2... 1... (GO)
 
 At the beginning of each level, a countdown from 3 to 1 is displayed, creating a brief anticipation before gameplay begins.
+
+![img](https://github.com/ravidmend/arkanoid/blob/master/.idea/pictures/321.gif)
 
 ## Part 2: Multiple Levels
 
@@ -27,6 +31,15 @@ A new interface called `LevelInformation` has been introduced to specify the inf
 ### Create Three Levels
 
 Three classes have been implemented, each corresponding to a different level layout. These levels differ in background color, ball properties, paddle characteristics, block layout, and a unique level name.
+
+### level 1
+![img](https://github.com/ravidmend/arkanoid/blob/master/.idea/pictures/level1.gif)
+
+### level 2
+![img](https://github.com/ravidmend/arkanoid/blob/master/.idea/pictures/level2.gif)
+
+### level 3
+![img](https://github.com/ravidmend/arkanoid/blob/master/.idea/pictures/level3.gif)
 
 ### Initialize GameLevel Based on LevelInformation
 
@@ -41,6 +54,8 @@ A new class named `GameFlow` has been introduced to manage the flow of the game 
 ### End Screen
 
 After completing all levels or losing the game, an end screen is displayed. The screen shows the final score along with a message: "Game Over. Your score is X" or "You Win! Your score is X." Pressing the space key terminates the game.
+
+![img](https://github.com/ravidmend/arkanoid/blob/master/.idea/pictures/game%20over.png)
 
 ## Part 4: Further Re-organization
 

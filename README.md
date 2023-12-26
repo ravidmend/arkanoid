@@ -20,10 +20,6 @@ At the beginning of each level, a countdown from 3 to 1 is displayed, creating a
 
 ## Part 2: Multiple Levels
 
-### Rename Game to GameLevel
-
-The `Game` class has been renamed to `GameLevel` to better reflect its functionality of managing a single game level.
-
 ### LevelInformation Interface
 
 A new interface called `LevelInformation` has been introduced to specify the information required for each game level. This includes details such as the number of balls, initial ball velocities, paddle speed, paddle width, level name, background, blocks, and the number of blocks to remove.

@@ -1,7 +1,5 @@
 # Arkanoid Game
-<p align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsiivagunner.fandom.com%2Fwiki%2FCategory%3AArkanoid_%2528Arcade%2529&psig=AOvVaw1Le4RTm96ugaRT6wBWCZZf&ust=1703883918163000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJipqayFs4MDFQAAAAAdAAAAABAN" alt="Arkanoid Logo" width="1000" height="250">
-</p>
+
 ## Introduction
 
 This is an extended version of the classic Arkanoid game, implementing new features and improvements. The game includes a pause screen, a countdown screen before each level, support for multiple levels, and an end screen. Follow the sections below to understand the changes and features added.
